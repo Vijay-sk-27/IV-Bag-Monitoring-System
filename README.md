@@ -5,12 +5,14 @@ This project implements a smart IV fluid monitoring system used in hospitals to
 monitor IV saline level and automatically stop the flow when the fluid is about
 to empty, preventing air embolism.
 
-## Components Used
-- Load cell / Ultrasonic sensor
-- Arduino / ESP32
+## Components Used 
+- ESP32
+- Load cell
+- HX711 Module
+- OLED Display
 - Solenoid valve
 - Relay module
-- LCD / Buzzer
+- Buzzer
 - Power supply
 
 ## Working Principle
